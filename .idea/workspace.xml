@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4eea757d-4af7-45bf-855a-078b40441f99" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../code/myleetcode/src/chapter15/nqueen_121.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../code/myleetcode/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../../code/myleetcode/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../code/myleetcode/src/chapter14/堆栈.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/../../../code/myleetcode/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,7 +43,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nqueen_121.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="nqueen_121.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../../code/myleetcode/src/chapter15/nqueen_121.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="312">
@@ -53,6 +52,16 @@
                 <element signature="docComment;class#nqueen_121#0" expanded="true" />
                 <element signature="e#237#238#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="堆栈.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../../../code/myleetcode/src/chapter14/堆栈.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -668,7 +677,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1496820380952</updated>
-      <workItem from="1496820387115" duration="7381000" />
+      <workItem from="1496820387115" duration="7421000" />
     </task>
     <task id="LOCAL-00001" summary="设计min栈">
       <created>1496820707850</created>
@@ -726,11 +735,18 @@
       <option name="project" value="LOCAL" />
       <updated>1496835125323</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="N皇后&#10;/**&#10; * Created by Administrator on 2017/6/7.&#10; *N皇后&#10; * N*N棋盘、放置N个皇后&#10; * 1到N的数列排序&#10; * 斜线上  两数之差等于其下表之差的绝对值&#10; */">
+      <created>1496835975985</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1496835975985</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7381000" />
+    <option name="totallyTimeSpent" value="7421000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="619" y="54" width="1258" height="915" extended-state="0" />
@@ -746,7 +762,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3259587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24914384" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24914384" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -775,7 +791,8 @@
     <MESSAGE value="/**&#10; * Created by Administrator on 2017/6/7.&#10; * 组合和&#10; * 输入一组正整数、一个目标值，求所有可能组合&#10; * 1、输入序列中的数可以多次出现&#10; * 2、若序列可能有重复元素，每个元素只能用一次&#10; */" />
     <MESSAGE value="子集和&#10;/**&#10; * Created by Administrator on 2017/6/7.&#10; * 输入不同数字的序列，输出所有可能集合&#10; * 1、若有重复元素，结果不能重复&#10; * 保留中间任意结果，而不是遍历完数列鄂菜保存结果&#10; * 利用完了数列的数之和，需要回退，恢复至使用前的状态&#10; */" />
     <MESSAGE value="全排列&#10;/**&#10; * Created by Administrator on 2017/6/7.&#10; * 全排列&#10; * 输入不含相同数字的序列，输出所有可能排列&#10; * 还需使用辅助数组记录他们的使用情况&#10; * 1、若含有重复元素&#10; */" />
-    <option name="LAST_COMMIT_MESSAGE" value="全排列&#10;/**&#10; * Created by Administrator on 2017/6/7.&#10; * 全排列&#10; * 输入不含相同数字的序列，输出所有可能排列&#10; * 还需使用辅助数组记录他们的使用情况&#10; * 1、若含有重复元素&#10; */" />
+    <MESSAGE value="N皇后&#10;/**&#10; * Created by Administrator on 2017/6/7.&#10; *N皇后&#10; * N*N棋盘、放置N个皇后&#10; * 1到N的数列排序&#10; * 斜线上  两数之差等于其下表之差的绝对值&#10; */" />
+    <option name="LAST_COMMIT_MESSAGE" value="N皇后&#10;/**&#10; * Created by Administrator on 2017/6/7.&#10; *N皇后&#10; * N*N棋盘、放置N个皇后&#10; * 1到N的数列排序&#10; * 斜线上  两数之差等于其下表之差的绝对值&#10; */" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -871,6 +888,14 @@
             <element signature="docComment;class#nqueen_121#0" expanded="true" />
             <element signature="e#237#238#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../code/myleetcode/src/chapter14/堆栈.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
