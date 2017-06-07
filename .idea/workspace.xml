@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4eea757d-4af7-45bf-855a-078b40441f99" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../code/myleetcode/src/chapter15/combinsum_117.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../code/myleetcode/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../../code/myleetcode/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../code/myleetcode/src/chapter15/combinsum_117.java" afterPath="$PROJECT_DIR$/../../../code/myleetcode/src/chapter15/combinsum_117.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../../../code/myleetcode/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +19,8 @@
       <file leaf-file-name="combinsum_117.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../../../code/myleetcode/src/chapter15/combinsum_117.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+            <state relative-caret-position="332">
+              <caret line="42" column="21" lean-forward="false" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;class#combinsum_117#0" expanded="true" />
@@ -67,8 +67,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="885" />
-    <option name="y" value="50" />
+    <option name="x" value="619" />
+    <option name="y" value="54" />
     <option name="width" value="1258" />
     <option name="height" value="915" />
   </component>
@@ -617,7 +617,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1496820380952</updated>
-      <workItem from="1496820387115" duration="3772000" />
+      <workItem from="1496820387115" duration="4524000" />
     </task>
     <task id="LOCAL-00001" summary="设计min栈">
       <created>1496820707850</created>
@@ -647,14 +647,21 @@
       <option name="project" value="LOCAL" />
       <updated>1496823392849</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="/**&#10; * Created by Administrator on 2017/6/7.&#10; * 组合和&#10; * 输入一组正整数、一个目标值，求所有可能组合&#10; * 1、输入序列中的数可以多次出现&#10; * 2、若序列可能有重复元素，每个元素只能用一次&#10; */">
+      <created>1496824196777</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1496824196777</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3772000" />
+    <option name="totallyTimeSpent" value="4524000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="885" y="50" width="1258" height="915" extended-state="0" />
+    <frame x="619" y="54" width="1258" height="915" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -664,10 +671,10 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32743362" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32743362" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24954627" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24914384" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -693,7 +700,8 @@
     <MESSAGE value="设计min栈&#10;/**&#10; * Created by Administrator on 2017/6/7.&#10; * 设计栈，使min、push、pop的时间复杂度都是O(1)&#10; * 需要一个新栈来存储最小值，使记录的最小值随着原有栈顶元素的变化而变化。&#10; * 当心元素来时，同时将当前最小值压入辅助栈&#10; * 辅助栈的栈顶一直是最小值，只要将新元素同它比较，取较小者作为当前新的最小值&#10; * 元素出栈时，辅助栈顶也出栈，求最小值时，只要看最小值即可&#10; */" />
     <MESSAGE value="/**&#10; * Created by Administrator on 2017/6/7.&#10; * 翻译手机号码&#10; *输入由数字组成的字符串，&#10; * 输出数字代表的所有组合&#10; */" />
     <MESSAGE value="/**&#10; * Created by Administrator on 2017/6/7.&#10; * 翻译手机号码&#10; *输入由数字组成的字符串，&#10; * 输出数字代表的所有组合&#10; * java char 直接转int得到ASCII码，减0得int值&#10; */" />
-    <option name="LAST_COMMIT_MESSAGE" value="/**&#10; * Created by Administrator on 2017/6/7.&#10; * 翻译手机号码&#10; *输入由数字组成的字符串，&#10; * 输出数字代表的所有组合&#10; * java char 直接转int得到ASCII码，减0得int值&#10; */" />
+    <MESSAGE value="/**&#10; * Created by Administrator on 2017/6/7.&#10; * 组合和&#10; * 输入一组正整数、一个目标值，求所有可能组合&#10; * 1、输入序列中的数可以多次出现&#10; * 2、若序列可能有重复元素，每个元素只能用一次&#10; */" />
+    <option name="LAST_COMMIT_MESSAGE" value="/**&#10; * Created by Administrator on 2017/6/7.&#10; * 组合和&#10; * 输入一组正整数、一个目标值，求所有可能组合&#10; * 1、输入序列中的数可以多次出现&#10; * 2、若序列可能有重复元素，每个元素只能用一次&#10; */" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -746,8 +754,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../code/myleetcode/src/chapter15/combinsum_117.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        <state relative-caret-position="332">
+          <caret line="42" column="21" lean-forward="false" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;class#combinsum_117#0" expanded="true" />

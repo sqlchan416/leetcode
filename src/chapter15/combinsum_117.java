@@ -38,8 +38,11 @@ public static void main(String[]args){
         }else {
             for(int i=start;i<nums.length;i++){
                 if(nums[i]>target) break;
+                //2//避免结果集重复，只取第一个相同的值
+                if(i!=start&&nums[i]==nums[i-1]) continue;
+                //2//
                 path.add(nums[i]);
-                helper(nums,i,target-nums[i],path,res);
+                helper(nums,i,target-nums[i],path,res);//2//此处改为i+1
                 path.remove(path.size()-1);
             }
         }
