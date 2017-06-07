@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4eea757d-4af7-45bf-855a-078b40441f99" name="Default" comment="设计min栈">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../code/myleetcode/.idea/kotlinc.xml" />
+    <list default="true" id="4eea757d-4af7-45bf-855a-078b40441f99" name="Default" comment="/**&#10; * Created by Administrator on 2017/6/7.&#10; * 翻译手机号码&#10; *输入由数字组成的字符串，&#10; * 输出数字代表的所有组合&#10; */">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../code/myleetcode/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../code/myleetcode/src/chapter15/phonenumber_115.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../code/myleetcode/src/chapter15/排列组合.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../code/myleetcode/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../../code/myleetcode/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../code/myleetcode/src/chapter14/minstack_110.java" afterPath="$PROJECT_DIR$/../../../code/myleetcode/src/chapter14/minstack_110.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../../../code/myleetcode/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,16 +18,26 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="minstack_110.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="minstack_110.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../../code/myleetcode/src/chapter14/minstack_110.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="46">
-              <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+              <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
               <folding>
                 <element signature="docComment;class#minstack_110#0" expanded="true" />
                 <element signature="e#1099#1100#0" expanded="true" />
                 <element signature="e#1131#1132#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="phonenumber_115.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../../../code/myleetcode/src/chapter15/phonenumber_115.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -52,6 +63,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/../../../code/myleetcode/src/chapter14/minstack_110.java" />
+        <option value="$PROJECT_DIR$/../../../code/myleetcode/src/chapter15/说明.txt" />
+        <option value="$PROJECT_DIR$/../../../code/myleetcode/src/chapter15/phonenumber.java" />
+        <option value="$PROJECT_DIR$/../../../code/myleetcode/src/chapter15/phonenumber_115.java" />
       </list>
     </option>
   </component>
@@ -62,8 +76,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="724" />
-    <option name="y" value="46" />
+    <option name="x" value="643" />
+    <option name="y" value="89" />
     <option name="width" value="1192" />
     <option name="height" value="952" />
   </component>
@@ -111,6 +125,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="chapter15" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myleetcode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myleetcode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="chapter14" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -138,7 +170,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.minstack_110">
+  <component name="RunManager" selected="Application.phonenumber_115">
     <configuration default="false" name="minstack_110" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -147,6 +179,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="chapter14.minstack_110" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../code/myleetcode" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="myleetcode" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="phonenumber_115" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="chapter15.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="chapter15.phonenumber_115" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../code/myleetcode" />
@@ -500,12 +552,14 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Application.minstack_110" />
+      <item index="1" class="java.lang.String" itemvalue="Application.phonenumber_115" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.minstack_110" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Application.phonenumber_115" />
+        <item index="1" class="java.lang.String" itemvalue="Application.minstack_110" />
       </list>
     </recent_temporary>
   </component>
@@ -519,7 +573,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1496820380952</updated>
-      <workItem from="1496820387115" duration="1236000" />
+      <workItem from="1496820387115" duration="2437000" />
     </task>
     <task id="LOCAL-00001" summary="设计min栈">
       <created>1496820707850</created>
@@ -528,27 +582,34 @@
       <option name="project" value="LOCAL" />
       <updated>1496820707850</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="设计min栈&#10;/**&#10; * Created by Administrator on 2017/6/7.&#10; * 设计栈，使min、push、pop的时间复杂度都是O(1)&#10; * 需要一个新栈来存储最小值，使记录的最小值随着原有栈顶元素的变化而变化。&#10; * 当心元素来时，同时将当前最小值压入辅助栈&#10; * 辅助栈的栈顶一直是最小值，只要将新元素同它比较，取较小者作为当前新的最小值&#10; * 元素出栈时，辅助栈顶也出栈，求最小值时，只要看最小值即可&#10; */">
+      <created>1496821647596</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1496821647596</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1236000" />
+    <option name="totallyTimeSpent" value="2437000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="724" y="46" width="1192" height="952" extended-state="0" />
+    <frame x="643" y="89" width="1192" height="952" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24954627" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24954627" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -571,7 +632,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="设计min栈" />
-    <option name="LAST_COMMIT_MESSAGE" value="设计min栈" />
+    <MESSAGE value="设计min栈&#10;/**&#10; * Created by Administrator on 2017/6/7.&#10; * 设计栈，使min、push、pop的时间复杂度都是O(1)&#10; * 需要一个新栈来存储最小值，使记录的最小值随着原有栈顶元素的变化而变化。&#10; * 当心元素来时，同时将当前最小值压入辅助栈&#10; * 辅助栈的栈顶一直是最小值，只要将新元素同它比较，取较小者作为当前新的最小值&#10; * 元素出栈时，辅助栈顶也出栈，求最小值时，只要看最小值即可&#10; */" />
+    <MESSAGE value="/**&#10; * Created by Administrator on 2017/6/7.&#10; * 翻译手机号码&#10; *输入由数字组成的字符串，&#10; * 输出数字代表的所有组合&#10; */" />
+    <option name="LAST_COMMIT_MESSAGE" value="/**&#10; * Created by Administrator on 2017/6/7.&#10; * 翻译手机号码&#10; *输入由数字组成的字符串，&#10; * 输出数字代表的所有组合&#10; */" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -585,12 +648,28 @@
     <entry file="file://$PROJECT_DIR$/../../../code/myleetcode/src/chapter14/minstack_110.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
-          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
           <folding>
             <element signature="docComment;class#minstack_110#0" expanded="true" />
             <element signature="e#1099#1100#0" expanded="true" />
             <element signature="e#1131#1132#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../code/myleetcode/src/chapter15/排列组合.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../code/myleetcode/src/chapter15/phonenumber_115.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
