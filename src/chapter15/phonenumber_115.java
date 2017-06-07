@@ -7,6 +7,7 @@ import java.util.ArrayList;
  * 翻译手机号码
  *输入由数字组成的字符串，
  * 输出数字代表的所有组合
+ * java char 直接转int得到ASCII码，减0得int值
  */
 public class phonenumber_115 {
     public static void main(String[] args){
